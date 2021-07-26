@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>网道 - 互联网开发文档</title>
+    <!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" -->
+    <link rel="stylesheet" href="./assets/css/app.min.css">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.css">
+    <% include favicon %>
+  </head>
+  <body>
+    <% include nav %>
+
+<section class="section homepage">
+  <div class="container">
+
+<div class="columns is-size-5-widescreen">
+  <div class="column is-8">
+    <article class="content is-size-5-widescreen">
+      <% if (page_title !== 'Documents') { %>
+        <h1><%= page_title %></h1>
+      <% } %>
+      <%= content %>
+    </article>
+  </div>
+
+  <div class="column is-3 is-offset-1">
+    <nav class="panel panel-menu">
+    <p class="panel-heading">
+      <i class="fa fa-list-ul" aria-hidden="true"></i> 文档目录
+    </p>
+    <div class="panel-block">
+    <aside class="menu">
+      <ul class="menu-list">
+        <li><a target="_blank" href="/html">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> HTML</span>
+        </a></li>
+        <li><a target="_blank" href="/javascript">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> JavaScript</span>
+        </a></li>
+        <li><a target="_blank" href="/es6">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> ES6</span>
+        </a></li>
+        <li><a target="_blank" href="/webapi">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> Web API</span>
+        </a></li>
+        <li><a target="_blank" href="/bash">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> Bash</span>
+        </a></li>
+        <li><a target="_blank" href="/ssh">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> SSH</span>
+        </a></li>
+      </ul>
+    </aside>
+    </div>
+    </nav>
+  </div>
+</div>
+
+  </div>
+</section>
+
+    <% include foot %>
+    <% include script %>
+  </body>
+</html>
