@@ -13,8 +13,8 @@ function showSupBanner() {
   if (scope !== 'all' && !scope.includes(currentScope)) return;
 
   // page path check
-  if (typeof LOPPO === 'undefined') return;
-  if (!LOPPO.current_path || LOPPO.current_path.substr(-1) === '/') return;
+  if (typeof EMAD_LOPPO === 'undefined') return;
+  if (!EMAD_LOPPO.current_path || EMAD_LOPPO.current_path.substr(-1) === '/') return;
 
   // create banner node
   var bannerDiv = document.createElement('div');
