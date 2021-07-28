@@ -19,7 +19,7 @@
   "homepage": "https://github.com/linjialiang/emad-loppo-theme-wangdoc-frontpage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linjialiang/emad-loppo-theme-wangdoc-frontpage.git"
+    "url": "git+https://github.com/linjialiang/emad-loppo-theme-wangdoc-frontpage.git"
   },
   "keywords": [
     "loppo",
@@ -43,5 +43,8 @@
     "postcss": "^8.2.9",
     "postcss-cli": "^8.3.1",
     "uglify-js": "^3.13.3"
+  },
+  "bugs": {
+    "url": "https://github.com/linjialiang/emad-loppo-theme-wangdoc-frontpage/issues"
   }
 }
