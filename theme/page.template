@@ -77,6 +77,22 @@
                       </a>
                     </li>
                     <li>
+                      <a target="_blank" href="/node">
+                        <span class="icon"></span>
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        &nbsp;
+                        <span class="menu-list-title"> Node.js</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="/git">
+                        <span class="icon"></span>
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        &nbsp;
+                        <span class="menu-list-title"> Git</span>
+                      </a>
+                    </li>
+                    <li>
                       <a target="_blank" href="/bash">
                         <span class="icon"></span>
                         <i class="fa fa-book" aria-hidden="true"></i>

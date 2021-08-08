@@ -1,6 +1,6 @@
 {
   "name": "emad-loppo-theme-wangdoc-frontpage",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "template for Wangdoc frontpage",
   "main": "index.js",
   "scripts": {
