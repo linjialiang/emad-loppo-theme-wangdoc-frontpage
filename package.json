@@ -1,6 +1,6 @@
 {
-  "name": "loppo-theme-wangdoc-frontpage",
-  "version": "0.4.1",
+  "name": "emad-loppo-theme-wangdoc-frontpage",
+  "version": "2.0.0",
   "description": "template for Wangdoc frontpage",
   "main": "index.js",
   "scripts": {
@@ -16,10 +16,10 @@
     "build-js-support": "uglifyjs scripts/support.js -c > theme/assets/js/s.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/wangdoc/loppo-theme-wangdoc-frontpage",
+  "homepage": "https://gitee.com/wangdoc/loppo-theme-wangdoc-frontpage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wangdoc/loppo-theme-wangdoc-frontpage.git"
+    "url": "https://gitee.com/wangdoc/loppo-theme-wangdoc-frontpage.git"
   },
   "keywords": [
     "loppo",
@@ -31,7 +31,7 @@
       "pre-commit": "npm run build-css && npm run build-js && git add -A"
     }
   },
-  "author": "Ruan Yifeng",
+  "author": "linjialiang",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.3.4",
