@@ -16,10 +16,10 @@
     "build-js-support": "uglifyjs scripts/support.js -c > theme/assets/js/s.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://gitee.com/wangdoc/loppo-theme-wangdoc-frontpage",
+  "homepage": "https://gitee.com/linjialiang/loppo-theme-wangdoc-frontpage",
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/wangdoc/loppo-theme-wangdoc-frontpage.git"
+    "url": "https://gitee.com/linjialiang/loppo-theme-wangdoc-frontpage.git"
   },
   "keywords": [
     "loppo",
